@@ -1,0 +1,13 @@
+[package]
+name = "motion_server"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+nalgebra = "0.31.1"
+libfranka-rs = "0.9.0"
+clap = { version = "3.1.7", features = ["derive"] }
+mockall = "0.9.1"
+float_extras = "0.1.6"

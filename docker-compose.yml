@@ -1,0 +1,10 @@
+services:
+  build:
+    container_name: ros2rust
+    image: wngfra/ros2rust:base
+    shm_size: '8gb'
+    ulimits:
+      memlock: -1
+    volumes:
+      - ../../ros2_ws:/workspace
+    command: colcon build --symlink-install --packages-skip-test

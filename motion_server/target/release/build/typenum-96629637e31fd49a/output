@@ -1,0 +1,2 @@
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/workspace/src/SpikyMotion/motion_server/target/release/build/typenum-96629637e31fd49a/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=/workspace/src/SpikyMotion/motion_server/target/release/build/typenum-96629637e31fd49a/out/op.rs
